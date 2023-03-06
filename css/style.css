@@ -33,7 +33,7 @@ body {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
@@ -42,7 +42,7 @@ body {
 .logo {
   height: 35px;
 }
-.text-box {
+.header__text-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
   margin: 0 auto;
 }
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 60px;
   font-weight: 400;
@@ -62,7 +62,7 @@ body {
   animation-name: moveInLeft;
   animation-duration: 1s;
 }
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -144,14 +144,14 @@ body {
   transform: scale(1.5);
   opacity: 0;
 }
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
